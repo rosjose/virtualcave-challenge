@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v1/currencies"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "symbol": "€",
+        "code": "EUR",
+        "decimals": 2
+      },
+      {
+        "symbol": "£",
+        "code": "GBP",
+        "decimals": 2
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

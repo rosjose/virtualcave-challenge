@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/exercicedb
+    username: postgres
+    password: postgres
+
+services:
+  currencies:
+    client:
+      baseUrl: http://localhost:8081/

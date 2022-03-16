@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v1/currencies/GBP"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody":
+    {
+      "symbol": "£",
+      "code": "GBP",
+      "decimals": 2
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

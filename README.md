@@ -53,3 +53,22 @@ Se pide crear un servicio basado en spring boot que a se conecte a una BBDD post
 * Optimización de accesos a base de datos y llamadas al servicio de currencies
 * Se valorará el uso de DDD y arquitectura hexagonal
 * Una resolución reactiva se valorará positivamente
+
+
+# Run steps
+
+Run postgreSQL and wiremock with:
+```shell
+docker-compose up --detach
+```
+
+Stop services:
+```shell
+docker-compose stop
+```
+
+Run the service:
+```shell
+cd rates-servlet
+ ./gradlew clean build bootrun 
+```
